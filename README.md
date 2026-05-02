@@ -2,6 +2,9 @@
 
 UI Autopsy is an advanced, automated UX analysis tool designed to streamline the design review process. By analyzing interface screenshots, it rapidly identifies usability flaws, provides a comprehensive UX score, and outlines actionable redesign concepts.
 
+## Live Demo
+🚀 **[View Live Demo on Vercel](https://uiautopsy.vercel.app/)**
+
 ## Features
 
 - **Instant UX Analysis**: Upload any interface screenshot to expose usability issues.
@@ -22,7 +25,7 @@ npm install
 Create a `.env.local` file in the root directory and add your API keys.
 
 ```bash
-
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 3. Run the development server:

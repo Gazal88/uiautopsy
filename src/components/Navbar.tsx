@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link href="/docs" className={`transition-colors hover:text-accent-blue ${pathname === '/docs' ? 'text-white' : 'text-gray-300'}`}>
             Docs
           </Link>
-          <a href="https://github.com/Gazal88" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors flex items-center gap-1.5">
+          <a href="https://github.com/Gazal88/uiautopsy" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors flex items-center gap-1.5">
             <GithubIcon className="w-4 h-4" /> GitHub
           </a>
         </div>
